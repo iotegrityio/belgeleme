@@ -1,0 +1,2 @@
+# belgeleme
+IoTegrity Belgeleri
