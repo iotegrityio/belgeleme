@@ -50,9 +50,9 @@ Kullanıcı adı veya e-posta mevcut ise `400` hata kodu döndürülür. Kullan�
 
 ```shell
 http --form POST https://api.iotegrity.io/auth/register \ 
-  username=eren \
+  username=KULLANICI \
   password=PAROLA \
-  email=eren@iotegrity.io
+  email=EMAIL@DOMAIN.COM
 
 ```
 
