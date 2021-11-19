@@ -5,7 +5,6 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - shell
 
 toc_footers:
-  - <a href='#'>Geliştirici Anahtarı Almak İçin Tıklayın</a>
   - <a href='https://github.com/slatedocs/slate'>Slate Kullanılmıştır</a>
 
 includes:
