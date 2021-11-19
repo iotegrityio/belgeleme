@@ -49,10 +49,7 @@ Kullanıcı adı veya e-posta mevcut ise `400` hata kodu döndürülür. Kullan�
 özgün olduğundan emin olun.
 
 ```shell
-http --form POST https://api.iotegrity.io/auth/register \ 
-  username=KULLANICI \
-  password=PAROLA \
-  email=EMAIL@DOMAIN.COM
+http --form POST https://api.iotegrity.io/auth/register username=KULLANICI password=PAROLA email=EMAIL@DOMAIN.COM
 
 ```
 
@@ -61,9 +58,7 @@ Token almak için `/auth/token` adresini kullanın. Aldığınız token `X-HTTP-
 
 
 ```shell
-http --form POST https://api.iotegrity.io/auth/token \ 
-  username=USER \
-  password=PASSWORD
+http --form POST https://api.iotegrity.io/auth/token username=USER password=PASSWORD
 ```
 ```json
 {
